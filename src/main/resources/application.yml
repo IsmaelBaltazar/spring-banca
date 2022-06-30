@@ -1,0 +1,9 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/banca
+server:
+  port: 8082
