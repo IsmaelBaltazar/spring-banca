@@ -17,8 +17,8 @@ import java.util.ArrayList;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-    public static final Contact DEFAULT_CONTACT = new Contact("Ismael Baltazar", "https://es.nttdata.com/",
-            "ibaltazc@emeal.nttdata.com");
+    public static final Contact DEFAULT_CONTACT = new Contact("Ismael Baltazar", "",
+            "ismaelbaltazar1999@gmail.com");
     @Bean
     public Docket apiDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
