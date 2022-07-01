@@ -30,7 +30,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Mono<Account> save(Account account) {
-        account.setIdAccount(sequenceService.getSequenceNumber(account.SEQUENCE_NAME));
+        account.setIdAccount(sequenceService.getSequenceNumber(Account.SEQUENCE_NAME));
         return accountRepository.save(account);
     }
 

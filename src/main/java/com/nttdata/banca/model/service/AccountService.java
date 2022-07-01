@@ -1,7 +1,6 @@
 package com.nttdata.banca.model.service;
 
 import com.nttdata.banca.model.document.Account;
-import com.nttdata.banca.model.document.Customer;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

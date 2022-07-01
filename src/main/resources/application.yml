@@ -4,6 +4,15 @@ spring:
       matching-strategy: ANT_PATH_MATCHER
   data:
     mongodb:
-      uri: mongodb://localhost:27017/banca
+      uri: mongodb://localhost:27018/banca
+  application:
+    name: bank-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:spring-banca
+    status-page-url-path: /swagger-ui/
 server:
   port: 8082

@@ -28,7 +28,7 @@ public class CustomerServiceImpl implements CustomerService {
                 return null;
             }
         }
-        customer.setIdCustomer(sequenceService.getSequenceNumber(customer.SEQUENCE_NAME));
+        customer.setIdCustomer(sequenceService.getSequenceNumber(Customer.SEQUENCE_NAME));
         return this.customerRepository.save(customer);
     }
 

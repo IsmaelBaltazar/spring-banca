@@ -1,6 +1,0 @@
-projectKey=Spring-banca
-serverUrl=http://localhost:9000
-serverVersion=9.4.0.54424
-dashboardUrl=http://localhost:9000/dashboard?id=Spring-banca
-ceTaskId=AYGYTy6uxTayUiND_7F1
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYGYTy6uxTayUiND_7F1

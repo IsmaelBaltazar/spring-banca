@@ -1,7 +1,6 @@
 package com.nttdata.banca.api;
 
 import com.nttdata.banca.model.document.Account;
-import com.nttdata.banca.model.document.Customer;
 import com.nttdata.banca.model.service.AccountService;
 import com.nttdata.banca.service.SequenceGeneratorService;
 import org.springframework.beans.factory.annotation.Autowired;
